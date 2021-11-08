@@ -14,9 +14,12 @@ const ALink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: visible;
   & > strong {
+    z-index: 15;
     margin-left: 5px;
     font-weight: 600;
+    overflow: visible;
   }
   transition: all 0.2s ease-in-out;
   &:hover {

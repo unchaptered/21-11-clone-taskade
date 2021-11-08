@@ -52,6 +52,7 @@ const Linkdiv = styled.div`
   align-items: center;
 `;
 const Subdiv = styled.div`
+  height: 18px;
   display: flex;
 `;
 
@@ -62,7 +63,7 @@ export default () => {
         <Logo width="139px" height="139px" borderRaduis="176.5px" />
         <main>
           <Subdiv>
-            <h5>Sing up</h5>
+            <h5>Sign up</h5>
             <BLink paht="/" text="Back" />
           </Subdiv>
           <h3 className="contentTitle">Create Your Free Acocunt</h3>
@@ -73,7 +74,7 @@ export default () => {
               text="Sign with "
               strong="Google"
               width="370px"
-              height="36px"
+              height="46px"
               colour="rgba(100, 100, 100, 0.4)"
               border="2px solid rgba(100, 100, 100, 0.4)"
               fsize="14px"
